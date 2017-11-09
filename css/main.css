@@ -1,0 +1,49 @@
+body {
+  background-color: AliceBlue;
+  color: DimGray;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  padding-top: 40px;
+}
+
+p{
+  font-size: 2em;
+}
+
+p .fa {
+  font-size: 2em;
+}
+
+#second-row-left {
+  text-align: right;
+}
+#second-row-right {
+  text-align: left;
+}
+
+.scruffy {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.grumpy {
+  font-family: 'Freckle Face', cursive;
+}
+
+.container {
+  background-color: LightCyan;
+  max-width: 900px;
+  min-height: 200px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.top-row {
+
+}
+
+.second-row {
+  padding-top: 20px;
+}
