@@ -1,6 +1,11 @@
+/*font color1 rgb(226, 129, 175)*/
+/*font color2 rgb(193, 217, 91)*/
+/*background color rgb(46, 54, 143)*/
+/*logo white rgb(255, 255, 255)*/
+
 body {
   background-color: AliceBlue;
-  color: DimGray;
+  color: Black;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -17,12 +22,36 @@ p .fa {
   font-size: 2em;
 }
 
+nav {
+  font-size: 2.0em;
+}
+
+.navbar {
+  min-height: 200px;
+}
+
+.navbar-brand img{
+  padding-left: 20px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: Black;
+}
+
+#brand-image{
+  max-height: 180px;
+}
+
 #second-row-left {
   text-align: right;
 }
 #second-row-right {
   text-align: left;
 }
+
+/*.navbar-brand {
+  background-image: url(../img/SmallLogo.png);
+}*/
 
 .scruffy {
   font-family: 'Gloria Hallelujah', cursive;
@@ -46,4 +75,14 @@ p .fa {
 
 .second-row {
   padding-top: 20px;
+}
+
+.top-bar{
+  font-size: 0.6em;
+  color: black;
+  padding-top: 10px;
+}
+
+#social {
+  letter-spacing: 1em;
 }
