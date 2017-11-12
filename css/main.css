@@ -3,8 +3,14 @@
 /*background color rgb(46, 54, 143)*/
 /*logo white rgb(255, 255, 255)*/
 
+html {
+    height: auto !important;
+    padding-bottom: 700px !important;
+}
+
 body {
-  background-color: AliceBlue;
+  min-height: 120%;
+  background-color: White;
   color: Black;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
@@ -24,53 +30,26 @@ p .fa {
 
 nav {
   font-size: 2.0em;
+
 }
 
-.navbar {
-  min-height: 200px;
+.top-bar-left {
+min-height: 50px;
 }
 
-.navbar-brand img{
-  padding-left: 20px;
+.top-bar-left span {
+  vertical-align: 5px;
 }
 
-.navbar-default .navbar-nav li a {
-  color: Black;
+.top-bar-mobile {
+ padding-left: 8px;
+ padding-right: 8px;
+ font-size: 1.15em;
 }
 
-#brand-image{
-  max-height: 180px;
-}
-
-#second-row-left {
-  text-align: right;
-}
-#second-row-right {
-  text-align: left;
-}
-
-/*.navbar-brand {
-  background-image: url(../img/SmallLogo.png);
-}*/
-
-.scruffy {
-  font-family: 'Gloria Hallelujah', cursive;
-}
-
-.grumpy {
-  font-family: 'Freckle Face', cursive;
-}
-
-.container {
-  background-color: LightCyan;
-  max-width: 900px;
-  min-height: 200px;
-  margin-top: 50px;
-  border-radius: 20px;
-}
-
-.top-row {
-
+.top-bar-email {
+  padding-left: 8px;
+  font-size: 1.15em;
 }
 
 .second-row {
@@ -81,8 +60,182 @@ nav {
   font-size: 0.6em;
   color: black;
   padding-top: 10px;
+  background-color: rgb(193, 217, 91);
+}
+
+.navbar {
+  min-height: 200px;
+  margin-bottom: 0;
+}
+
+.navbar-brand{
+  padding-left: 20px;
+  min-height: 200px;
+}
+
+.navbar-default {
+  background-color: rgb(237, 253, 255)!important;
+  border-top: 2px solid rgb(226, 129, 175);
+  border-bottom: 2px solid rgb(226, 129, 175);
+}
+
+.navbar-default .navbar-nav li a {
+  color: Black;
+}
+
+.navbar-default .navbar-nav li a:hover{
+  background-color: rgb(226, 129, 175);
+  transition: 0.4s;
+}
+
+.navbar-default .navbar-nav > .open > a:hover{
+  background-color: rgb(226, 129, 175)!important;
+  color: black!important;
+}
+
+.navbar-default .navbar-nav > .open > a{
+  background-color: rgb(237, 253, 255)!important;
+  color: black!important;
+}
+
+.dropdown-menu > li > a:hover {
+    background-color: rgb(226, 129, 175);
+    background-image: none;
+}
+
+.dropdown-menu > li > a{
+  background-color: rgb(237, 253, 255);
+  color: black;
+}
+
+.nav .navbar-nav {
+  width: 100%;
+}
+
+.about-img {
+  max-height: 200px;
+}
+
+.left-column{
+  padding-top: 40px;
+  padding-left: 60px;
+}
+
+.middle-column {
+  background-color: white;
+}
+
+.container {
+  background-color: White;
+  max-width: 900px;
+  min-height: 200px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.body-text {
+  text-align: justify;
+}
+
+.img-bottom{
+  max-width: 100%;
+  height: 200px;
+}
+
+.img-thumbnail {
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 6px;
+}
+
+.dropdown {
+  padding-top: 10px;
+}
+
+#brand-image{
+  max-height: 180px;
+}
+
+#main-heading{
+  text-align: center;
+}
+
+#second-row-left {
+  text-align: right;
+}
+#second-row-right {
+  text-align: left;
 }
 
 #social {
   letter-spacing: 1em;
+  /*width: 33%;*/
+}
+
+#contacts{
+  /*width: 67%;*/
+}
+
+#callout {
+  text-align: center;
+}
+
+#callout span {
+  font-weight: bold;
+}
+
+#navbar-links {
+  padding-top: 10px;
+}
+
+#services {}
+
+@media (max-width: 1200px){
+  #my-navbar-brand {
+    float: none !important;
+    margin: 0 auto;
+  }
+  .navbar-nav {
+      float:none;
+      margin:0 auto;
+      display: block;
+      text-align: center;
+  }
+  .navbar-nav > li {
+      display: inline-block;
+      float:none;
+  }
+  .links-div {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 0.9em;
+  }
+  #services {
+    width: 100%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 991px){
+  .left-column {
+    min-height: 140px;
+    display: block;
+  }
+  .left-column img {
+    max-width: 160px;
+    float:left;
+  }
+}
+@media (min-width: 1200px){
+  .links-div {
+    min-height: 200px;
+      padding-top: 140px;
+  }
+}
+@media (max-width: 768px){
+  .left-column {
+    padding-left: 35%;
+    padding-right: 0;
+  }
 }

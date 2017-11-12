@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ScruffyPups n' GrumpyCats | Pet Services</title>
     <script src="https://use.fontawesome.com/8869ce6975.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Freckle+Face|Gloria+Hallelujah|Ubuntu" rel="stylesheet">
@@ -11,95 +12,154 @@
   </head>
   <body>
     <div class="row top-bar">
-      <div class="col-md-6">
+      <div id="contacts" class="col-lg-6 col-md-12 top-bar-left">
         <p>
           <i class="fa fa-mobile" aria-hidden="true"></i>
-          0423816012 |
+          <span class="top-bar-mobile">
+            0423816012
+          </span>
           <i class="fa fa-envelope" aria-hidden="true"></i>
-          scruffypupsngrumpycats@gmail.com
+          <span class="top-bar-email">
+            scruffypupsngrumpycats@gmail.com
+          </span>
         </p>
       </div>
-      <div class="col-md-6">
-        <p id="social">
+      <div id="social" class="col-lg-6 col-md-12 top-bar-right">
+        <p>
           <i class="fa fa-facebook" aria-hidden="true"></i>
           <i class="fa fa-twitter" aria-hidden="true"></i>
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </p>
       </div>
     </div>
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><img id="brand-image" src="./img/SmallLogo.png"></a>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-12">
+          <div id="my-navbar-brand" class="navbar-brand" >
+            <a href="./index.html">
+              <img id="brand-image" src="./img/SmallLogo.png">
+            </a>
+          </div>
+        </div>
+
+      <div class="col-lg-7 col-md-12 links-div">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div id="navbar-links" class="collapse navbar-collapse">
+          <div class="">
+            <ul class="nav navbar-nav">
+              <li class="">
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="./pages/about.html">About</a>
+              </li>
+              <li>
+                <a href="./pages/resources.html">Resources</a>
+              </li>
+              <li>
+                <a href="./pages/contact.html">Contact Us</a>
+              </li>
+
+          </div><!-- /.navbar-collapse -->
+        </div>
+
+      </div>
+      <div id="services" class="col-lg-2 col-md-12 col-sm-12 pull-right links-div">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Dog Walking</a></li>
+              <li><a href="#">Home Visits</a></li>
+              <li><a href="#">Vacation Care</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="">
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="./pages/about.html">About</a>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Dog Walking</a></li>
-            <li><a href="#">Home Visits</a></li>
-            <li><a href="#">Vaction Care</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">Contact Us</a>
-        </li>
-
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-    <!-- <div class="container">
-      <div class="row top-row">
-        <div class="col-md-12">
-          <h1><span class="scruffy">ScruffyPups</span> n' <span class="grumpy">GrumpyCats</span> | Pet Services</h1>
+    <div class="body-text row">
+      <div class="left-column col-md-2">
+        <div class="row">
+          <div class="col-md-12 col-sm-3 col-xs-12">
+            <img class="img-responsive" src="https://www.petdogambassador.com/resources/Logos/PPG%20LogoPDA_PDA%20Assessor.png" alt="">
+          </div>
+          <div class="col-md-12 col-sm-3 col-xs-12">
+            <img class="img-responsive" src="https://www.petdogambassador.com/resources/Logos/Word%20Logo%20Only.png" alt="">
+          </div>
+          <div class="col-md-12 col-sm-3 col-xs-12">
+            <img class="img-responsive" src="https://www.petdogambassador.com/resources/Logos/PPG%20LogoPDA_PDA%20Instructor.png" alt="">
+          </div>
+          <div class="col-md-12 col-sm-3 col-xs-12">
+            <img class="img-responsive" src="https://ppgaustralia.net.au/Resources/Pictures/High%20Res%20Logos/ProudMembers%20Badge.png" alt="">
+          </div>
         </div>
       </div>
-      <div class="row second-row">
-        <div id="second-row-left" class="col-md-4 col-xs-4">
-          <p><i class="fa fa-paw" aria-hidden="true"></i></p>
-        </div>
-        <div class="col-md-4 col-xs-4">
-          <p>Colleen 0423xxxxxx</p>
-        </div>
-        <div id="second-row-right" class="col-md-4 col-xs-4">
-          <p><i class="fa fa-paw" aria-hidden="true"></i></p>
-        </div>
+      <div class="middle-column col-md-8"><h1 id="main-heading">Because there's no place like home!</h1>
+        <br>
+        <p> We understand that your pets feel safer and more relaxed in their own familiar home environment. Our Home Visits and Pet Sitting services allow them to stay in their own home when you're away, whether it is daily visits during the work week, overnight stays for a weekend getaway or extended Pet Sitting for that longer family vacation. So let us take care of your pets when you can't be there.
+        </p>
+        <br>
+        <p>
+          We provide our clients with peace of mind knowing that their beloved pets are being cared for by trained professionals. Our team of reliable carers are passionate about pet care and focused on building happy, trusting relationships with you and your pets. We are dedicated to finding the best option for the convenience, comfort and care of your pets. Your pets will enjoy being the focus of attention.
+        </p>
+        <br>
+        <p>
+          We look forward to helping you and your pets find a care option that best suits your individual needs.
+        </p>
+        <br>
+        <p id="callout">
+          <span>
+            Call us today and say hi!
+          </span>
+          <br>
+          We know you want the best, safest, professional yet friendliest care for your furry family member. Let us answer your questions and put your mind at rest.
+          <br>
+          <span>Call or text 0423816012.</span>
+        </p>
       </div>
-    </div> -->
+      <div class="right-column col-md-2">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <div class=" img-thumbnail">
+            <img class="img-bottom" src="./img/beagleWalk.png" alt="">
+            <div class="caption">
+              <h4>Dog Walking</h4>
+          </div>
+          </div>
+         </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="img-thumbnail">
+            <img class="img-bottom" src="./img/dogSleeping.png" alt="">
+            <div class="caption">
+              <h4>Pet Sitting</h4>
+          </div>
+          </div>
+         </div>
+        <div class="col-md-4 col-sm-12">
+          <div class="img-thumbnail">
+            <img class="img-bottom" src="./img/Haku.jpg" alt="">
+            <div class="caption">
+              <h4>Cat Foo!</h4>
+            </div>
+          </div>
+         </div>
+        <!-- <div class="col-md-4"><img class="img-bottom img-thumbnail" src="./img/dogSleeping.png" alt=""></div>
+        <div class="col-md-4"><img class="img-bottom img-thumbnail" src="./img/Haku.jpg" alt=""></div>
+      </div> -->
+    </div>
+  </div>
 
 
     <script
