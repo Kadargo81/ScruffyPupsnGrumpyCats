@@ -74,7 +74,10 @@ min-height: 50px;
 }
 
 .navbar-default {
-  background-color: rgb(237, 253, 255)!important;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(226, 129, 175,0.3))!important;
+  background-image: url(../img/paws.png)!important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
   border-top: 2px solid rgb(226, 129, 175);
   border-bottom: 2px solid rgb(226, 129, 175);
 }
@@ -84,17 +87,17 @@ min-height: 50px;
 }
 
 .navbar-default .navbar-nav li a:hover{
-  background-color: rgb(226, 129, 175);
+  background-color: rgba(226, 129, 175,0.6);
   transition: 0.4s;
 }
 
 .navbar-default .navbar-nav > .open > a:hover{
-  background-color: rgb(226, 129, 175)!important;
+  background-color: rgba(226, 129, 175, 0.6)!important;
   color: black!important;
 }
 
 .navbar-default .navbar-nav > .open > a{
-  background-color: rgb(237, 253, 255)!important;
+  background-color: White!important;
   color: black!important;
 }
 
@@ -117,12 +120,22 @@ min-height: 50px;
 }
 
 .left-column{
-  padding-top: 40px;
+
+  padding-top: 60px;
   padding-left: 60px;
 }
 
 .middle-column {
   background-color: white;
+  /*border-right: 2px solid rgb(193, 217, 91);
+  border-left: 2px solid rgb(193, 217, 91);*/
+}
+
+.right-column {
+
+  max-width: 90%;
+  padding-top: 60px;
+  padding-right: 0;
 }
 
 .container {
@@ -135,6 +148,11 @@ min-height: 50px;
 
 .body-text {
   text-align: justify;
+}
+
+.body-text {
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 90%, rgba(193, 217, 91,0.3)),
+              linear-gradient(to right, rgba(255, 255, 255, 0) 90%, rgba(193, 217, 91,0.3));
 }
 
 .img-bottom{
@@ -150,6 +168,42 @@ min-height: 50px;
 
 .dropdown {
   padding-top: 10px;
+}
+
+.tick {
+  color: rgb(193, 217, 91);
+}
+
+.left-traits {
+  text-align: left;
+}
+
+.text-area{
+  max-width: 100%;
+}
+
+.about-column{
+  text-align: center;
+}
+
+#bottom-row {
+  padding-top: 50px;
+  min-height: 1000px;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0) 90%, rgba(193, 217, 91,0.3)),
+              linear-gradient(to right, rgba(255, 255, 255, 0) 90%, rgba(193, 217, 91,0.3));
+}
+
+#bottom-container{
+  margin-top: 0;
+}
+
+#first-show{
+  max-width: 85%;
+}
+
+#second-show {
+  padding-top: 60px;
+  max-width: 90%;
 }
 
 #brand-image{
@@ -188,7 +242,18 @@ min-height: 50px;
   padding-top: 10px;
 }
 
-#services {}
+#form {
+  max-width: 90%;
+  background-color: rgb(193, 217, 91);
+  border: 2px solid rgb(226, 129, 175);
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 20px;
+}
+/*TODO FIX ME*/
+#services > a{
+  background-color: rgba(255, 255, 255, 0)!important;
+}
 
 @media (max-width: 1200px){
   #my-navbar-brand {

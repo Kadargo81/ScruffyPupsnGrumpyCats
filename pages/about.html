@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/main.css">
   </head>
     <body>
+      <!-- TOP BAR -->
       <div class="row top-bar">
         <div id="contacts" class="col-lg-6 col-md-12 top-bar-left">
           <p>
@@ -32,44 +33,48 @@
           </p>
         </div>
       </div>
+    <!-- END TOP BAR -->
+    <!-- LINKS NAVBAR -->
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-3 col-md-12">
             <div id="my-navbar-brand" class="navbar-brand" >
               <a href="../index.html">
-                <img id="brand-image" src="../img/SmallLogo.png">
+                <img id="brand-image" src="../img/SVGlogo.svg">
               </a>
             </div>
           </div>
+          <!-- Links div -->
+          <div class="col-lg-7 col-md-12 links-div">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div id="navbar-links" class="collapse navbar-collapse">
+              <div class="">
+                <ul class="nav navbar-nav">
+                  <li class="">
+                    <a href="#">Home</a>
+                  </li>
+                  <li>
+                    <a href="./pages/about.html">About</a>
+                  </li>
+                  <li>
+                    <a href="./pages/resources.html">Resources</a>
+                  </li>
+                  <li>
+                    <a href="./pages/contact.html">Pricing</a>
+                  </li>
+                  <li>
+                    <a href="./pages/contact.html">Contact Us</a>
+                  </li>
+              </div><!-- /.navbar-collapse -->
+            </div>
+          </div> <!-- End links div -->
 
-        <div class="col-lg-7 col-md-12 links-div">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div id="navbar-links" class="collapse navbar-collapse">
-            <div class="">
-              <ul class="nav navbar-nav">
-                <li class="">
-                  <a href="../index.html">Home</a>
-                </li>
-                <li>
-                  <a href="./pages/about.html">About</a>
-                </li>
-                <li>
-                  <a href="./pages/resources.html">Resources</a>
-                </li>
-                <li>
-                  <a href="./pages/contact.html">Contact Us</a>
-                </li>
-
-            </div><!-- /.navbar-collapse -->
-          </div>
-
-        </div>
         <div id="services" class="col-lg-2 col-md-12 col-sm-12 pull-right links-div">
           <ul class="nav navbar-nav">
             <li class="dropdown">
@@ -83,15 +88,132 @@
           </ul>
         </div>
       </div>
-    </div><!-- /.container-fluid -->
+    </div>
   </nav>
-    <div class="container">
+  <!-- END LINKS NAVBAR -->
+  <!-- LEFT COLUMN -->
+  <!-- TODO FIX IMAGE SIZE AND SPACING -->
+  <div class="body-text row">
+    <div class="left-column col-md-2">
+      <div class="row">
+        <div class="col-md-12 col-sm-6 col-xs-12">
+          <img id="first-show" class="img-responsive" src="https://ppgaustralia.net.au/Resources/Pictures/High%20Res%20Logos/ProudMembers%20Badge.png" alt="">
+        </div>
+        <div id="second-show" class="col-md-12 col-sm-6 col-xs-12">
+          <img class="img-responsive" src="https://www.petdogambassador.com/resources/Logos/Word%20Logo%20Only.png" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- MIDDLE COLUMN -->
+    <div class="about-column middle-column col-md-7">
       <h1>About Me</h1>
       <img class="about-img  img-rounded" src="../img/DSC02511.jpg" alt="">
       <p>Hi, I'm Colleen.</p>
       <p>Having worked for a large multination corporation for many years I decided it was time to follow my passion working with animals. I have been a volunteer dog trainer for nearly a decade, working with local community organisations to provide affordable training options for pet owners, while also providing education for community members and schools. I continue to volunteer my time to these organisations in the interest of improving the lives of pets and pet owners living in my local community.</p>
       <p>I have a Cert IV in Training and Assessment &amp; Cert II in Animal Care. I am a certified Pet Dog Ambassador Trainer, a member of The Pet Professional Guild and currently completing a Diploma in Canine Behaviour.</p>
     </div>
+    <!-- RIGHT COLUMN -->
+    <!-- TODO fix text wrapping and breaks -->
+    <div class="right-column col-md-3">
+      <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+      <p><span class="tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+        CERT II Animal Care
+      </p>
+      </div>
+      <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+        <p><span class="tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+          CERT IV Training & Assessment
+        </p>
+      </div>
+      <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+        <p><span class="tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+          Senior First Aid Certificate
+        </p>
+      </div>
+      <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+        <p><span class="tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+          Pet First Aid Trained
+        </p>
+      </div>
+      <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+        <p><span class="left-traits tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+          Pet Professional Guild Member
+        </p>
+      </div>
+      <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+        <p><span class="tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+           References Available
+        </p>
+      </div>
+      <!-- TODO FIX FORM BACKGROUND -->
+      <div class="">
+        <div class="col-md-12">
+          <h4>Name</h4>
+          <input type="text" name="name" value="">
+        </div>
+        <div class="col-md-12">
+          <h4>Email</h4>
+          <input type="text" name="email" value="">
+        </div>
+        <div class="col-md-12">
+          <h4>Phone</h4>
+          <input type="text" name="phone" value="">
+        </div>
+        <div class="text-area col-md-12">
+          <h4>Comments</h4>
+          <textarea name="name" rows="6" cols="40"></textarea>
+        </div>
+      </div>
+    </div>
+  </div> <!-- End Top Row Div -->
+
+  <!-- BOTTOM ROW -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-12">
+        <div class=" img-thumbnail">
+          <img class="img-bottom" src="./img/beagleWalk.png" alt="">
+          <div class="caption">
+            <h4>Dog Walking</h4>
+        </div>
+        </div>
+       </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="img-thumbnail">
+          <img class="img-bottom" src="./img/dogSleeping.png" alt="">
+          <div class="caption">
+            <h4>Pet Sitting</h4>
+        </div>
+        </div>
+       </div>
+      <div class="col-md-4 col-sm-12">
+        <div class="img-thumbnail">
+          <img class="img-bottom" src="./img/Haku.jpg" alt="">
+          <div class="caption">
+            <h4>Cat Foo!</h4>
+          </div>
+        </div>
+       </div>
+     </div>
+   </div>
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+      <h1>About Me</h1>
+      <img class="about-img  img-rounded" src="../img/DSC02511.jpg" alt="">
+      <p>Hi, I'm Colleen.</p>
+      <p>Having worked for a large multination corporation for many years I decided it was time to follow my passion working with animals. I have been a volunteer dog trainer for nearly a decade, working with local community organisations to provide affordable training options for pet owners, while also providing education for community members and schools. I continue to volunteer my time to these organisations in the interest of improving the lives of pets and pet owners living in my local community.</p>
+      <p>I have a Cert IV in Training and Assessment &amp; Cert II in Animal Care. I am a certified Pet Dog Ambassador Trainer, a member of The Pet Professional Guild and currently completing a Diploma in Canine Behaviour.</p>
+    </div>
+    <div class="col-md-12 col-sm-3 col-xs-12">
+      <img class="img-responsive" src="https://www.petdogambassador.com/resources/Logos/PPG%20LogoPDA_PDA%20Instructor.png" alt="">
+    </div>
+    <div class="col-md-12 col-sm-3 col-xs-12">
+      <img class="img-responsive" src="https://www.petdogambassador.com/resources/Logos/PPG%20LogoPDA_PDA%20Assessor.png" alt="">
+    </div>
+    </div>
+    </div> -->
 
   </body>
 </html>

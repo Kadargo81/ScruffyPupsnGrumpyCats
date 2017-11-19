@@ -38,7 +38,7 @@
         <div class="col-lg-3 col-md-12">
           <div id="my-navbar-brand" class="navbar-brand" >
             <a href="./index.html">
-              <img id="brand-image" src="./img/SmallLogo.png">
+              <img id="brand-image" class=" image-responsive" src="./img/SVGlogo.svg">
             </a>
           </div>
         </div>
@@ -63,6 +63,9 @@
                 <a href="./pages/resources.html">Resources</a>
               </li>
               <li>
+                <a href="./pages/contact.html">Pricing</a>
+              </li>
+              <li>
                 <a href="./pages/contact.html">Contact Us</a>
               </li>
 
@@ -70,9 +73,9 @@
         </div>
 
       </div>
-      <div id="services" class="col-lg-2 col-md-12 col-sm-12 pull-right links-div">
+      <div class="col-lg-2 col-md-12 col-sm-12 pull-right links-div">
         <ul class="nav navbar-nav">
-          <li class="dropdown">
+          <li id="services" class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="#">Dog Walking</a></li>
@@ -85,24 +88,21 @@
     </div>
   </div><!-- /.container-fluid -->
 </nav>
+    <!-- LEFT COLUMN -->
+    <!-- TODO FIX IMAGE SIZE AND SPACING -->
     <div class="body-text row">
       <div class="left-column col-md-2">
         <div class="row">
-          <div class="col-md-12 col-sm-3 col-xs-12">
-            <img class="img-responsive" src="https://www.petdogambassador.com/resources/Logos/PPG%20LogoPDA_PDA%20Assessor.png" alt="">
+          <div class="col-md-12 col-sm-6 col-xs-12">
+            <img id="first-show" class="img-responsive" src="https://ppgaustralia.net.au/Resources/Pictures/High%20Res%20Logos/ProudMembers%20Badge.png" alt="">
           </div>
-          <div class="col-md-12 col-sm-3 col-xs-12">
+          <div id="second-show" class="col-md-12 col-sm-6 col-xs-12">
             <img class="img-responsive" src="https://www.petdogambassador.com/resources/Logos/Word%20Logo%20Only.png" alt="">
-          </div>
-          <div class="col-md-12 col-sm-3 col-xs-12">
-            <img class="img-responsive" src="https://www.petdogambassador.com/resources/Logos/PPG%20LogoPDA_PDA%20Instructor.png" alt="">
-          </div>
-          <div class="col-md-12 col-sm-3 col-xs-12">
-            <img class="img-responsive" src="https://ppgaustralia.net.au/Resources/Pictures/High%20Res%20Logos/ProudMembers%20Badge.png" alt="">
           </div>
         </div>
       </div>
-      <div class="middle-column col-md-8"><h1 id="main-heading">Because there's no place like home!</h1>
+      <!-- MIDDLE COLUMN -->
+      <div class="middle-column col-md-7"><h1 id="main-heading">Because there's no place like home!</h1>
         <br>
         <p> We understand that your pets feel safer and more relaxed in their own familiar home environment. Our Home Visits and Pet Sitting services allow them to stay in their own home when you're away, whether it is daily visits during the work week, overnight stays for a weekend getaway or extended Pet Sitting for that longer family vacation. So let us take care of your pets when you can't be there.
         </p>
@@ -125,11 +125,63 @@
           <span>Call or text 0423816012.</span>
         </p>
       </div>
-      <div class="right-column col-md-2">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <!-- RIGHT COLUMN -->
+      <div class="right-column col-md-3">
+        <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+        <p><span class="tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+          Experienced
+        </p>
+        </div>
+        <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+          <p><span class="tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+            Reliable Service
+          </p>
+        </div>
+        <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+          <p><span class="tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+            Registered Business
+          </p>
+        </div>
+        <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+          <p><span class="tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+            Fully Insured
+          </p>
+        </div>
+        <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+          <p><span class="left-traits tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+            Police Check
+          </p>
+        </div>
+        <div class="left-traits col-md-12 col-sm-4 col-xs-12">
+          <p><span class="tick glyphicon glyphicon-ok" aria-hidden="true"></span>
+             References Available
+          </p>
+        </div>
+        <!-- TODO FIX FORM BACKGROUND -->
+        <div id="form" class="well well-lg col-md-12">
+          <div class="col-md-12"><h3>Quick Contact Form</h3></div>
+          <div class="col-md-12">
+            <h4>Name</h4>
+            <input type="text" name="name" value="">
+          </div>
+          <div class="col-md-12">
+            <h4>Email</h4>
+            <input type="text" name="email" value="">
+          </div>
+          <div class="col-md-12">
+            <h4>Phone</h4>
+            <input type="text" name="phone" value="">
+          </div>
+          <div class="text-area col-md-12">
+            <h4>Comments</h4>
+            <textarea name="name" rows="6" cols="50"></textarea>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="container">
+    <!-- BOTTOM ROW -->
+    <div id="bottom-row">
+    <div id="bottom-container" class="container">
       <div class="row">
         <div class="col-md-4 col-sm-12">
           <div class=" img-thumbnail">
@@ -159,6 +211,7 @@
         <div class="col-md-4"><img class="img-bottom img-thumbnail" src="./img/Haku.jpg" alt=""></div>
       </div> -->
     </div>
+  </div>
   </div>
 
 
