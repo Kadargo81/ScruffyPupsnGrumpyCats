@@ -5,7 +5,7 @@
 
 html {
     height: auto !important;
-    padding-bottom: 700px !important;
+    padding-bottom: 0px !important;
 }
 
 body {
@@ -31,6 +31,14 @@ p .fa {
 nav {
   font-size: 2.0em;
 
+}
+
+.textArea {
+  width: 100%;
+}
+
+.row {
+  margin: 0;
 }
 
 .top-bar-left {
@@ -75,9 +83,9 @@ min-height: 50px;
 
 .navbar-default {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(226, 129, 175,0.3))!important;
-  background-image: url(../img/paws.png)!important;
-  background-repeat: no-repeat !important;
-  background-position: center !important;
+  background-image: url(../img/paws.png);
+  background-repeat: no-repeat;
+  background-position: center;
   border-top: 2px solid rgb(226, 129, 175);
   border-bottom: 2px solid rgb(226, 129, 175);
 }
@@ -87,8 +95,8 @@ min-height: 50px;
 }
 
 .navbar-default .navbar-nav li a:hover{
-  background-color: rgba(226, 129, 175,0.6);
-  transition: 0.4s;
+  background-color: rgba(226, 129, 175,0.4);
+  transition: 0.6s;
 }
 
 .navbar-default .navbar-nav > .open > a:hover{
