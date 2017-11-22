@@ -10,84 +10,85 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
   </head>
-  <body>
-    <div class="row top-bar">
-      <div id="contacts" class="col-lg-6 col-md-12 top-bar-left">
-        <p>
-          <i class="fa fa-mobile" aria-hidden="true"></i>
-          <span class="top-bar-mobile">
-            0423816012
-          </span>
-          <i class="fa fa-envelope" aria-hidden="true"></i>
-          <span class="top-bar-email">
-            scruffypupsngrumpycats@gmail.com
-          </span>
-        </p>
+    <body>
+      <!-- TOP BAR -->
+      <div class="row top-bar">
+        <div id="contacts" class="col-lg-6 col-md-12 top-bar-left">
+          <p>
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <span class="top-bar-mobile">
+              0423816012
+            </span>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <span class="top-bar-email">
+              scruffypupsngrumpycats@gmail.com
+            </span>
+          </p>
+        </div>
+        <div id="social" class="col-lg-6 col-md-12 top-bar-right">
+          <p>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </p>
+        </div>
       </div>
-      <div id="social" class="col-lg-6 col-md-12 top-bar-right">
-        <p>
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-        </p>
-      </div>
-    </div>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-3 col-md-12">
-          <div id="my-navbar-brand" class="navbar-brand" >
-            <a href="./index.html">
-              <img id="brand-image" class=" image-responsive" src="./img/ScruffyPupsLogo1.png">
-            </a>
+      <!-- END TOP BAR -->
+      <!-- LINKS NAVBAR -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-12">
+            <div id="my-navbar-brand" class="navbar-brand" >
+              <a href="./index.html">
+                <img id="brand-image" class="image-responsive" src="./img/ScruffyPupsLogo1.png">
+              </a>
+            </div>
           </div>
+          <!-- Links div -->
+        <div class="col-lg-7 col-md-12 links-div">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="navbar-links" class="collapse navbar-collapse">
+            <div class="">
+              <ul class="nav navbar-nav">
+                <li class="">
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="./pages/about.html">About</a>
+                </li>
+                <li>
+                  <a href="./pages/resources.html">Resources</a>
+                </li>
+                <li>
+                  <a href="./pages/contact.html">Pricing</a>
+                </li>
+                <li>
+                  <a href="./pages/contact.html">Contact Us</a>
+                </li>
+            </div><!-- /.navbar-collapse -->
+          </div>
+        </div> <!-- End links div -->
+        <div class="col-lg-2 col-md-12 col-sm-12 pull-right links-div">
+          <ul class="nav navbar-nav">
+            <li id="services" class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Dog Walking</a></li>
+                <li><a href="#">Home Visits</a></li>
+                <li><a href="#">Vacation Care</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-
-      <div class="col-lg-7 col-md-12 links-div">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-links" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <div id="navbar-links" class="collapse navbar-collapse">
-          <div class="">
-            <ul class="nav navbar-nav">
-              <li class="">
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="./pages/about.html">About</a>
-              </li>
-              <li>
-                <a href="./pages/resources.html">Resources</a>
-              </li>
-              <li>
-                <a href="./pages/contact.html">Pricing</a>
-              </li>
-              <li>
-                <a href="./pages/contact.html">Contact Us</a>
-              </li>
-
-          </div><!-- /.navbar-collapse -->
-        </div>
-
       </div>
-      <div class="col-lg-2 col-md-12 col-sm-12 pull-right links-div">
-        <ul class="nav navbar-nav">
-          <li id="services" class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Dog Walking</a></li>
-              <li><a href="#">Home Visits</a></li>
-              <li><a href="#">Vacation Care</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div><!-- /.container-fluid -->
-</nav>
+    </div><!-- /.container-fluid -->
+  </nav> <!-- END LINKS NAVBAR -->
     <!-- LEFT COLUMN -->
     <!-- TODO FIX IMAGE SIZE AND SPACING -->
     <div class="body-text row">
